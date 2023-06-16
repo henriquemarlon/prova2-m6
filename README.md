@@ -1,12 +1,7 @@
 # Parte prática da prova 2 do módulo 6 de Engenharia de Computação
 
-## Enunciado
-
-Desenvolva um código em Python capaz de utilizar o openCV para a leitura de um vídeo (frame a frame) e, para cada frame, o seu código deve identificar e marcar na imagem os retângulos correspondentes a cada uma das faces encontradas. Ao final do código, um novo vídeo deve ser salvo com a(s) face(s) identificada(s).
-
-Para a detecção das faces, pode-se utilizar a abordagem que quiser (haar cascade, filtro de correlação, YOLO). Não há a necessidade de fazer o fine tuning da detecção. Se o código é capaz de identificar faces corretamente na maior parte do tempo, considera-se como uma aplicação aceitável para esta etapa da prova.
-
-Boa prova =)
+## Descrição
+Para cumprir os requisitos da prova foi implementado por meio do CV2 o Haar Cascading. O código da implementação está contido no arquivo ```main.py``` e os vídeos analisados são armazenados na pasta ```/output```.
 
 ## Exemplos
 
